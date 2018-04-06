@@ -42,7 +42,7 @@ Basically, run run.sh in Terminal should be fine.
 
 If the shell isn't works, than enter the command with format:
 
-python success.py input-log.csv input-inactivity_period.txt output-file.txt
+python3 success.py input-log.csv input-inactivity_period.txt output-file.txt
 
 # Reference
 
