@@ -50,7 +50,7 @@ https://stackoverflow.com/questions/17262256/how-to-read-one-single-line-of-csv-
 
 https://stackoverflow.com/questions/431752/python-csv-reader-how-do-i-return-to-the-top-of-the-file/431771
 
-# Copyrights
+# Ownership
 
 Source code in src: Yu-Ting Chen
 
