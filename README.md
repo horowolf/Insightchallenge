@@ -1,21 +1,20 @@
 # README
 
-
-#Programming language
+# Programming language
 
 Python 3.6.1
 
-#Addition library used
+# Addition library used
 
 Non
 
-#Running environments
+# Running environments
 
 OS: Mac OS High Sierra
 
 IDE: PyCharm CE, with interpreter: Anaconda
 
-#The way to solve this challenge
+# The way to solve this challenge
 
 Main problems:
 
@@ -37,7 +36,7 @@ Check how the idea of solution can be implement:
 
 Start coding: Put the place holder as comment in code for reminding the design. (look the code in src/uncleaned.py)
 
-#How to run
+# How to run
 
 Basically, run run.sh in Terminal should be fine.
 
@@ -45,7 +44,7 @@ If the shell isn't works, than enter the command with format:
 
 python success.py input-log.csv input-inactivity_period.txt output-file.txt
 
-#Reference
+# Reference
 
 docs.python.org
 
@@ -53,7 +52,7 @@ https://stackoverflow.com/questions/17262256/how-to-read-one-single-line-of-csv-
 
 https://stackoverflow.com/questions/431752/python-csv-reader-how-do-i-return-to-the-top-of-the-file/431771
 
-#Copyrights
+# Copyrights
 
 Source code in src: Yu-Ting Chen
 
