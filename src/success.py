@@ -6,13 +6,12 @@ import csv
 if len(sys.argv) != 4 :
     print("The input should be: python program.py input-log.csv input-inactivity_period.txt output-sessionization.txt")
 
-f = open(sys.argv[3], "w")
-f.close()
-
 f = open(sys.argv[2], "r")
 fd = f.read()
 inactivityPeriod = int(fd)
 f.closed
+
+f = open(sys.argv[3], "w")
 
 csvf = open(sys.argv[1], mode = "r")
 reader = csv.reader(csvf)
@@ -46,12 +45,12 @@ def checkInactivity(checkDatetime):
             makePrePrintDic(k)
             removeList.append(k)
     #write
-    f = open(sys.argv[3], "a")
-    f.seek(0,2)
+    #f = open(sys.argv[3], "a")
+    #f.seek(0,2)
     for i in sorted(prePrintoutDic.keys()):
         f.write(prePrintoutDic[i])
         f.write("\n")
-    f.close()
+    #f.close()
     prePrintoutDic.clear()
     for ip in removeList:
         removeDic(ip)
@@ -91,3 +90,4 @@ for row in reader:
 
 #end of file -> dump all the data even still in activity
 checkInactivity(datetime.strptime(currentDatetime, "%Y-%m-%d %H:%M:%S") + timedelta(days=1))
+f.close()
